@@ -1,8 +1,8 @@
-# React Assessment
+# React Assignment
 
 ---
 
-This assessment serves as the capstone of the interpersonal and technical lecture modules by combining the "Tell Your Story" module and the React/Redux, front-end development, module. Students will be recieve requirements to design and develop a personal portfolio page on Monday of the second week of the module. This portfolio page will contain their biographies, stories (Maybe in a blog format), resumes, descriptions of the assignments and assessments they completed, any previous projects they built, and professional images of themselves. The students should develop their own user stories and design the portfolio site themselves. On assessment day, students will take a short exam over terms from the React/Redux module and then each student will present their portfolio pages along with their stories and experiences through FastTrack'D to the class and any internal Cook employees that wish to come and watch.
+This assignment combines the interpersonal and technical lecture modules by combining the "Tell Your Story" module and the React/Redux, front-end development, module. This portfolio page will contain their biographies, stories (Maybe in a blog format), resumes, descriptions of the assignments and assessments they completed, any previous projects they built, and professional images of themselves. The students should develop their own user stories and design the portfolio site themselves. Each student will present their portfolio pages along with their stories and experiences through FastTrack'D to the class.
 
 ## Goal
 
