@@ -1,8 +1,8 @@
-# React Assignment
+# React Portfolio Assignment
 
 ---
 
-This assignment combines the interpersonal and technical lecture modules by combining the "Tell Your Story" module and the React/Redux, front-end development, module. This portfolio page will contain their biographies, stories (Maybe in a blog format), resumes, descriptions of the assignments and assessments they completed, any previous projects they built, and professional images of themselves. The students should develop their own user stories and design the portfolio site themselves. Each student will present their portfolio pages along with their stories and experiences through FastTrack'D to the class.
+This assignment combines the interpersonal and technical lecture modules by combining the "Tell Your Story" module and the React/Redux module, front-end development, module. This portfolio page will contain their biographies, stories (Maybe in a blog format), resumes, descriptions of the assignments and assessments they completed, any previous projects they built, and professional images of themselves. The students should develop their own user stories and design the portfolio site themselves. Each student will present their portfolio pages along with their stories and experiences through FastTrack'D to the class.
 
 ## Goal
 
