@@ -13,10 +13,19 @@ class Home extends Component {
       {
         buttonText: 'Projects'
       }
-    ]
+    ],
+    redirect: ''
+  }
+
+  redirectPage = location => {
+    this.setState({ redirect: location })
   }
 
   render () {
+    if (this.state.redirect) {
+      return <Redirect to={this.state.redirect} />
+    }
+
     const buttons = this.state.buttonContainers.map(buttonContainer => (
       <ButtonContainer.Button key={buttonContainer.buttonText}>
         {buttonContainer.buttonText}
@@ -27,7 +36,9 @@ class Home extends Component {
       <HomeCard>
         <HomeCard.Title>{this.state.name}</HomeCard.Title>
         <HomeCard.Quote>{this.state.quote}</HomeCard.Quote>
-        <ButtonContainer>{buttons}</ButtonContainer>
+        <div>
+          <ButtonContainer>{buttons}</ButtonContainer>
+        </div>
       </HomeCard>
     )
   }

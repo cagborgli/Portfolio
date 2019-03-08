@@ -1,9 +1,16 @@
 import React, { Component } from 'react'
+import Text from '../components/Text'
+import AboutCard from '../components/AboutCard'
 import FrameCard from '../components/FrameCard'
 import ButtonContainer from '../components/ButtonContainer'
+import AboutButtonContainer from '../components/AboutButtonContainer'
 
 class About extends Component {
   state = {
+    text: 'About Me',
+    summary: 'I am a Software Developer',
+    story: 'Tell My Story ',
+
     buttonContainers: [
       {
         buttonText: 'Home'
@@ -22,9 +29,17 @@ class About extends Component {
     ))
 
     return (
+      <div>
+        <Text>{this.state.text}</Text>/>
+        <AboutCard>
+          <AboutCard.Summary>{this.state.summary} </AboutCard.Summary>
+          <AboutCard.Story>{this.state.story} </AboutCard.Story>
+        </AboutCard>
         <FrameCard>
-            <ButtonContainer>{buttons}</ButtonContainer>
-            </FrameCard>     
+          <FrameCard.Frame> </FrameCard.Frame>
+        </FrameCard>
+        <AboutButtonContainer>{buttons}</AboutButtonContainer>
+      </div>
     )
   }
 }

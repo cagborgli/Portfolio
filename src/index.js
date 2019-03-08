@@ -1,9 +1,10 @@
 import React, { Fragment } from 'react'
 import ReactDOM from 'react-dom'
 import styled from 'styled-components'
-
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Home from './containers/Home.js'
 import About from './containers/About.js'
+import Projects from './containers/Projects.js'
 import { createGlobalStyle } from 'styled-components'
 import img from './images/home.jpg'
 
@@ -29,7 +30,7 @@ const Overlay = styled.div`
 ReactDOM.render(
   <Overlay>
     <GlobalStyle />
-    <About />
+    <Projects />
   </Overlay>,
   document.getElementById('root')
 )
