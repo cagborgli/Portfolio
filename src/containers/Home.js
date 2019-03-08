@@ -8,10 +8,12 @@ class Home extends Component {
     name: ' Christopher Gborgli',
     buttonContainers: [
       {
-        buttonText: 'About'
+        buttonText: 'About',
+        link: '/about'
       },
       {
-        buttonText: 'Projects'
+        buttonText: 'Projects',
+        link: '/projects'
       }
     ],
     redirect: ''
@@ -27,7 +29,10 @@ class Home extends Component {
     }
 
     const buttons = this.state.buttonContainers.map(buttonContainer => (
-      <ButtonContainer.Button key={buttonContainer.buttonText}>
+      <ButtonContainer.Button
+        key={buttonContainer.buttonText}
+        href={buttonContainer.link}
+      >
         {buttonContainer.buttonText}
       </ButtonContainer.Button>
     ))

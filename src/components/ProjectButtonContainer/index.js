@@ -7,8 +7,8 @@ const ProjectButtonContainer = styled.section`
   flex-direction: csnter;
   justify-content: center;
   align-items: space between;
-  margin-top: 150px;
-  margin-bottom: 35px;
+  margin-top: 130px;
+  margin-bottom: 10px;
 `
 ProjectButtonContainer.smartshareButton = smartshareButton
 ProjectButtonContainer.devduelButton = devduelButton

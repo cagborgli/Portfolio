@@ -8,7 +8,7 @@ const Text = styled.span`
   font-size: 35px;
   color: black;
   font-family: 'Cookie';
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   line-height: 1;
   color: #ddd;
 `

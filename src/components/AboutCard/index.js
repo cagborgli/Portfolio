@@ -7,6 +7,8 @@ const AboutCard = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  max-width: 1000px;
+  margin-left:10px
   float: left;
   height: 100px;
 `

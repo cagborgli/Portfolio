@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Button = styled.button`
+const Button = styled.a`
   @keyframes bounce {
     0%,
     100%,
@@ -27,6 +27,7 @@ const Button = styled.button`
   border-radius: 50%;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-timing-function: ease-in-out;

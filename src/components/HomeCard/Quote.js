@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const Quote = styled.span`
   display: flex;
   justify-content: center;
-  margin: 24px 0;
+  margin: 50px 0;
   height: 60px;
   font-size: 45px;
   color: #ddd;
