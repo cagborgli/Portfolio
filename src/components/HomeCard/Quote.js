@@ -6,7 +6,7 @@ const Quote = styled.span`
   margin: 50px 0;
   height: 60px;
   font-size: 45px;
-  color: #ddd;
+  color: #F0F8FF;
   font-family: 'cookie';
   letter-spacing: 1px;
   line-height: 1;

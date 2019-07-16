@@ -11,6 +11,6 @@ const Title = styled.span`
   font-family: 'Cookie';
   letter-spacing: 2px;
   line-height: 1;
-  color: #ddd;
+  color: #F0F8FF;
 `
 export default Title

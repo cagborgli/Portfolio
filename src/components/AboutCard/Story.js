@@ -8,6 +8,6 @@ const Story = styled.p`
   font-family: 'Cookie';
   letter-spacing: 2px;
   line-height: 1;
-  color: #ddd;
+  color: #F0F8FF;
 `
 export default Story

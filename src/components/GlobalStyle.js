@@ -9,8 +9,8 @@ const GlobalStyle = createGlobalStyle`
     background-image: url(${img});
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
-    height: 100vh;
+    width="auto"
+    height="auto"
   }
 `
 export default GlobalStyle
